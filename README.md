@@ -1,86 +1,51 @@
-🎨 EMI-Brain AI Diagnostic System 🧠📡
+🚀 NeuraShield AI 🧠⚡️
+NeuraShield AI is an advanced AI-powered diagnostic system designed to detect and classify electromagnetic interference (EMI) signals and accurately predict brain cancer types using state-of-the-art machine learning models. 🌐🔬
+📖 Overview
+NeuraShield AI integrates sophisticated neural network models to provide fast, accurate predictions in two crucial areas:
+- **Electromagnetic Interference (EMI)** 📡: Classifies EMI signals (e.g., Arcing, Corona, MicroSparking).
+- **Brain Cancer Diagnosis** 🧠: Predicts specific brain cancer types with high precision.
 
-Bridging AI with Healthcare & Engineering—One Model at a Time! 🚀
-🎯 Project Overview
+✨ Key Features
+• **High Accuracy Models** 🎯
+• **Weighted Training** ⚖️ (to handle class imbalance)
+• **Real-time Classification** ⏳
+• **Interactive LLM-based Reports** 🤖📝
+• **Easy Integration & Scalability** 🔧
 
-🔹 EMI Classification (1D CNN) – Detects electrical faults like Arcing, Corona, and Process Noise.
-🔹 Brain Cancer Prediction (MLP) – Identifies tumors like Glioma, Meningioma, and more.
-🔹 AI Report Generator (LLM) – Transforms raw model outputs into structured, human-friendly reports.
-🔹 Seamless Integration – Combines Machine Learning & NLP for real-world diagnostics.
+📂 Project Structure
+- `emi_model.py`: EMI signal classification using a CNN.
+- `brain_model.py`: Brain cancer type prediction using an MLP.
+- `generate_report.py`: AI-generated diagnostic report using Hugging Face LLM.
+- Datasets stored in CSV files 📊
 
-🏗 System Components
+⚙️ How to Run
+1. Clone the repository.
+2. Install required packages:
+`pip install -r requirements.txt`
+3. Run the EMI and Brain models:
+`python emi_model.py`
+`python brain_model.py`
+4. Generate AI Diagnostic Reports:
+`python generate_report.py`
 
-📡 1️⃣ EMI Classification Model (1D CNN)
-✅ Detects & classifies EMI signal disturbances.
-✅ Deep learning-based fault detection system.
+❓ Example Use-Cases
+- "Explain the EMI signal classification."
+- "What are the implications of the detected brain cancer type?"
+- "Suggest next steps after EMI detection."
 
-🧠 2️⃣ Brain Cancer Detection Model (MLP)
-✅ Predicts tumor types based on MRI scans.
-✅ Multi-Layer Perceptron (MLP) with deep feature extraction.
-
-📜 3️⃣ AI-Powered Report Generator (LLM)
-✅ Retrieval-Augmented Generation (RAG) for context-aware insights.
-✅ Enhances interpretability for engineers & doctors.
-
-📊 Architecture
-
-🎛 Data Preprocessing & Feature Engineering
-📌 EMI signals converted into waveform features.
-📌 MRI-based tumor dataset vectorized for deep learning models.
-
-⚡ Model Training & Evaluation
-📌 EMI Model: 1D CNN trained on labeled EMI disturbances.
-📌 Brain Model: MLP trained on MRI-based tumor classifications.
-
-🧠 LLM-Driven Report Generation
-📌 Uses retrieval-augmented generation (RAG) to generate expert-level reports.
-📌 Processes classification results + external knowledge sources.
-
-🛠 Installation & Execution
-
-📥 1️⃣ Setup
-Clone the repository and install dependencies:
-
-git clone https://github.com/yourusername/emi-brain-diagnostic.git
-cd emi-brain-diagnostic
-pip install -r requirements.txt
-🚀 2️⃣ Run the Models
-🏆 Train & Test EMI Classification Model:
-
-python emi_model.py
-🏥 Train & Test Brain Cancer Model:
-
-python brain_model.py
-📜 Generate AI Reports:
-
-python generate_report.py
-📊 Performance Metrics
-
-✅ EMI Model Accuracy: 96%
-✅ Brain Model Accuracy: 93%
-✅ AI Report Generator: Context-aware expert insights
-
-📂 Results stored in:
-📌 emi_classification_results.csv
-📌 brain_cancer_classification_results.csv
-
-🚀 Future Enhancements
-
-🔄 Real-time EMI monitoring with IoT Integration
-📡 Cloud-based tumor diagnosis & visualization
-🤖 Interactive AI Chatbot for EMI & Brain Reports
-
-🎯 Contributing
-
-💡 Want to improve the project?
-
-1️⃣ Fork & Clone the repo.
-2️⃣ Create a feature branch for improvements.
-3️⃣ Commit & push changes.
-4️⃣ Submit a Pull Request!
+🤝 Contributing
+1. Fork and clone the repository.
+2. Create a feature branch (`git checkout -b feature/YourFeature`).
+3. Commit your changes (`git commit -m "Add some feature"`).
+4. Push to the branch (`git push origin feature/YourFeature`).
+5. Open a Pull Request 🔀
 
 📜 License
+This project is licensed under the MIT License.
+🙏 Acknowledgments
+- Hugging Face for LLM integration.
+- PyTorch for neural network modeling.
+- Scikit-learn for data preprocessing.
+- Open datasets and research communities.
 
-📌 MIT License – Open-source for research & development!
-
-🚀 Transforming AI-Powered Diagnostics for a Smarter Future! 🚀
+Thank you for using NeuraShield AI! 🌟🔍
